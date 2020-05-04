@@ -5,12 +5,11 @@ render(){
     return(
         <main>
         <section>
-    <p>{this.props.quiz_question}</p>
+    <p>{this.props.quiz_question[0]}</p>
         </section>
         <section className="buttons">
           <ul>
-            //quiz question button logic goes here
-    <       li>{this.props.quiz_question}</li>
+            <li>{this.props.quiz_question[0]}</li>
             
           </ul>
         </section>
