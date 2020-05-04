@@ -10,7 +10,6 @@ render(){
         </section>
         <section className="buttons">
           <ul>
-           
             <QuizQuestionButton button_text={this.props.quiz_question.answer_options[0]}/>
             {/* <li>{this.props.quiz_question.answer_options[1]}</li>
             <li>{this.props.quiz_question.answer_options[2]}</li>
